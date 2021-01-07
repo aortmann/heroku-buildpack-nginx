@@ -16,7 +16,7 @@ pcre_tarball_url=https://ftp.pcre.org/pub/pcre/pcre-${PCRE_VERSION}.tar.gz
 headers_more_nginx_module_url=https://github.com/openresty/headers-more-nginx-module/archive/v${HEADERS_MORE_VERSION}.tar.gz
 uuid4_url=https://github.com/cybozu/nginx-uuid4-module/archive/${UUID4_VERSION}.tar.gz
 zlib_url=http://zlib.net/zlib-${ZLIB_VERSION}.tar.gz
-upstream_check_module_url=https://github.com/yaoweibin/nginx_upstream_check_module/archive/${UPSTREAM_CHECK_VERSION}.tar.gz
+upstream_check_module_url=https://github.com/zhouchangxun/ngx_healthcheck_module/archive/${UPSTREAM_CHECK_VERSION}.tar.gz
 
 temp_dir=$(mktemp -d /tmp/nginx.XXXXXXXXXX)
 
